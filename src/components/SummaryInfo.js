@@ -8,6 +8,13 @@ import Avatar from '@material-ui/core/Avatar';
 import ImageIcon from '@material-ui/icons/Image';
 import WorkIcon from '@material-ui/icons/Work';
 import BeachAccessIcon from '@material-ui/icons/BeachAccess';
+import TruckIcon from '@material-ui/icons/Commute';
+import MoneyIcon from '@material-ui/icons/Money';
+import ShopIcon from '@material-ui/icons/ShoppingCart';
+
+import BookMarkIcon from '@material-ui/icons/Bookmark';
+
+
 
 const styles = theme => ({
   root: {
@@ -23,25 +30,25 @@ function SummaryInfo(props) {
     <List className={classes.root}>
       <ListItem>
         <Avatar>
-          <ImageIcon />
+          <TruckIcon />
         </Avatar>
         <ListItemText primary="Number of trucks on road" secondary="10 trucks in total" />
       </ListItem>
       <ListItem>
         <Avatar>
-          <WorkIcon />
+          <MoneyIcon />
         </Avatar>
         <ListItemText primary="Total revenue" secondary="HKD 102,031" />
       </ListItem>
       <ListItem>
         <Avatar>
-          <BeachAccessIcon />
+          <ShopIcon />
         </Avatar>
         <ListItemText primary="Total orders today" secondary="6021 orders in total" />
       </ListItem>
       <ListItem>
         <Avatar>
-          <BeachAccessIcon />
+          <BookMarkIcon />
         </Avatar>
         <ListItemText primary="Total orders uncollected" secondary="321 orders" />
       </ListItem>
